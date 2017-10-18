@@ -67,9 +67,3 @@ function promiseRead(filePath) {
         })
     })
 }
-    return new Promise((reslove, reject) => {
-        read(filePath, (d) => {
-            reslove(d);
-        })
-    })
-}
